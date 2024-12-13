@@ -5,6 +5,8 @@ import SignupForm from './_auth/forms/SignupForm';
 import RootLayout from './_root/RootLayout';
 import AuthLayout from './_auth/AuthLayout';
 import Home from './_root/pages/Home';
+import { Toaster } from "@/components/ui/toaster";
+
 
 const App = () => {
   return (
@@ -22,6 +24,8 @@ const App = () => {
             </Route>
 
         </Routes>
+
+        <Toaster  />
     </main>
   )
 }
