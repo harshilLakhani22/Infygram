@@ -3,7 +3,7 @@ import { Link, NavLink, useLocation, useNavigate } from "react-router-dom";
 
 import { Button } from "../ui/button";
 import { useUserContext } from "@/context/AuthContext";
-import { useSignOutAccount } from "@/lib/react-query/queriesAndMutaions";
+import { useSignOutAccount } from "@/lib/react-query/queries";
 import { sidebarLinks } from "@/constants";
 import { INavLink } from "@/types";
 
