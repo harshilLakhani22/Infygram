@@ -3,7 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 
 import { Button } from "../ui/button";
 import { useUserContext } from "@/context/AuthContext";
-import { useSignOutAccount } from "@/lib/react-query/queriesAndMutaions";
+import { useSignOutAccount } from "@/lib/react-query/queries";
 
 
 const Topbar = () => {
